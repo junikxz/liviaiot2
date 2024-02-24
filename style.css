@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+#bungkus {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#logo img{
+    margin-top: 20px;
+    width: 80px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    border-bottom: 5px solid;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner {
+    height: 800px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+#banner img{
+    width: 100%;
+    height: 800px;
+}
+
+#highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#highlight .semuagambar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#highlight .box{
+    width: 320px;
+    height: 250px;
+    margin-top: 0;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+    margin: 0 5px;
+    margin-bottom: 0;
+}
+
+.box img {
+    width: 100%;
+    height:100%;
+}
+
+#banner2 {
+    height: 380px;
+    border-radius: 10px;
+    width: 420px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#banner2 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    margin-left: 0;
+}
+
+#banner2 img {
+    width: 400px;
+    height:150px;
+    margin-top: 0;
+    max-width: 100%; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+.teksbanner {
+    max-width: 80%; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+
+image-container {
+    flex: 0 0 40%; 
+}
+
+.image-container img {
+    max-width: 100%; 
+    border-radius: 10px; 
+}
+
+.teksbanner {
+    flex: 0 0 55%; 
+}
+
+.teksbanner h2 {
+    margin-top: 0; 
+}
+
+
+.teksbanner{
+    flex: 1;
+}
+.teksbanner h2{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 39px;
+}
+
+.teksbanner p{
+    margin: 0;
+    margin-left: 40px;
+    text-align: justify;
+    padding: 0;
+    width: 900px;
+    font-size: 16px;
+}
+
+#klien {
+    text-align: center;
+    margin: 0;
+}
+
+.foto{
+    display: flex;
+}
+.foto img{
+    margin-top: 0px;
+    width: 150px;
+    height: auto;
+    padding : 0;
+    margin: 40px;
+    flex :1;
+
+}
+.list-foto{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+}
+
+.list-foto li{
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.foto {
+    margin-right: 10px;
+}
+
+#testimoni {
+    text-align: center;
+}
+
+.gambartesti {
+    width : 800px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.gambartesti img{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    margin-left: 280px;
+    border-radius: 100%;
+    display: flex;
+    max-width: 100px;
+    margin-top: 30px;
+}
+
+.semuatesti {
+    display: flex;
+    flex-direction: row;
+}
+
+.gambartesti .teks{
+    padding: 20px;
+    text-align: center;
+}
+
+.gambartesti .teks p {
+    margin: 0;
+    text-align: center;
+}
+
+.gambartesti .teks h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#subscribe {
+    width: 800px;
+      height: 200px;
+      padding: 15px;
+      margin: 20px;
+      text-align: center;
+      color: white;
+      background-color: deeppink;
+      margin-left: 300px;
+}
+
+input[type=text]{
+    border: 2px solid gray;
+    border-radius: 4px;
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    size: 24px;
+}
+.emailbox::placeholder{
+    font-size: 16px;
+}
+
+.emailbox {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+.emailbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailbutton button{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid white 1px;
+    color: white;
+    cursor:pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 192, 203, 0.328);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background: #212523;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ratakanan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.logobawah img {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.logobawah p {
+    margin: 0;
+}
+
+.telpon{
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    #menu ul li{
+        margin-top: 50px;
+    }
+    #highlight .col{
+        margin-top: 0;
+    }
+    #banner{
+        height:350px;
+        width:auto;
+    }
+    #banner img{
+        height: auto;
+    }
+    #menu {
+        margin-top: 0px; 
+    }
+    #banner2 {
+        margin-top: 30px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .teksbanner h2{
+        margin-left: 15px;
+    }
+    .teksbanner p {
+        width: 230px;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .foto img {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    .gambartesti {
+        width: 90%; 
+        margin-left: 25px; 
+        margin-right: 25px;
+    }
+    .gambartesti img{
+        margin-left: 70px;
+    }
+    #subscribe {
+        width: 500px; 
+        height: 150px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .gambartesti .teks p{
+        font-size: 12px;
+    }
+
+    #subscribe h2{
+        font-size: 16px;
+        color: black;
+    }
+
+    #subscribe button{
+        margin-top: 0;
+    }
+    #subscribe .boxsubscribe{
+        font-size: 10px;
+    }
+    
+    input[type="text"] {
+        width: 100%; 
+    }
+
+}
